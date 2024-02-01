@@ -1,0 +1,1109 @@
+
+
+
+ @media screen and (min-width: 1200px) {
+  
+
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: scroll;
+
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.body > .aboutintro{
+    background-color: rgb(43, 70, 108);
+    height: auto;
+    /* width: var(--windowwidth); */
+    padding-bottom: 100px;
+}
+
+
+.body > .aboutintro > .aboutus > ul {
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+}
+.body > .aboutintro > .aboutus > ul > .h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+.body > .aboutintro > .aboutus > ul > .text{
+    font-size: 18px;
+    
+}
+
+
+
+
+
+                  /* ourstory */
+
+
+.body > .ourstory {
+    height: auto;
+    /* width: var(--windowwidth); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+.body > .ourstory > ul {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    list-style: none;
+    color: black;
+    margin-inline: 100px;
+
+}
+
+
+.body > .ourstory > ul > li {
+    margin-inline: 50px;
+}
+.body > .ourstory > ul > li.movedown{
+   position: relative;
+   top:150px;
+}
+
+.body > .ourstory > ul > li > img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow:10px 10px 80px 1px rgb(215, 212, 212);
+
+}
+.body > .ourstory > ul > li > div {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.body > .ourstory > ul > li > ul {
+    list-style: none;
+    font-size: 18px;
+    width: auto;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow:10px 10px 80px 1px rgb(215, 212, 212);
+}
+.body > .ourstory > ul > li > ul > li {
+    margin-block: 30px;
+    color: rgb(55, 54, 54);
+    
+
+}
+.body > .ourstory > ul > li > ul > li.h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.body > .ourstory > ul > li > ul > li.text1 {
+ 
+  
+}
+.body > .ourstory > ul > li > ul > li.text2 {
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* meetour team */ 
+
+.body > .meetourteam {
+    height:auto;
+    /* width: var(--windowwidth); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body > .meetourteam > ul {
+    width: auto;
+    height: auto;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body > .meetourteam > ul > li {
+ margin-block: 10px;
+}
+.body > .meetourteam > ul > li.oneinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.body > .meetourteam > ul > li.h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.body > .meetourteam > ul > li > ul {
+    width: auto;
+    /* height: auto; */
+    list-style: none;
+    display: flex;
+    box-shadow:10px 10px 120px 1px rgb(233, 231, 231);
+    padding: 0px 40px 0px 0px;
+    
+    margin: 20px;
+
+}
+.body > .meetourteam > ul > li > ul > li {
+  
+}
+.body > .meetourteam > ul > li > ul > li > img {
+   height: 100%;
+   width: 200px;
+   aspect-ratio: 1/1;
+}
+.body > .meetourteam > ul > li > ul > li > div{ 
+    margin-block: 40px;
+    margin-left: 60px;
+
+}
+.body > .meetourteam > ul > li > ul > li > div.h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.body > .meetourteam > ul > li > ul > li > div.text {}
+
+
+
+
+
+
+
+
+
+
+
+
+/* numberspeaks ... */
+/* 
+
+.body > .numberspeaks {
+    height:auto ;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.body > .numberspeaks > ul {
+  list-style: none;
+  
+ 
+}
+
+
+.body > .numberspeaks > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.body > .numberspeaks > ul > li > h1 {
+    font-size: 110px;
+    font-weight: 700;
+    color:black;
+}
+
+.body > .numberspeaks > ul > li > div  {
+    list-style: none;
+    display: flex;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -100px;
+   
+}
+
+
+
+.body > .numberspeaks > ul > li > div > ul {
+list-style: none;
+padding: 80px 50px 150px 50px;
+margin-inline: 100px;
+
+}
+
+
+.body > .numberspeaks > ul > li > div > ul > li {
+    font-size: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .numberspeaks > ul > li > div > ul > li.h1 {
+    font-size: 80px;
+    font-weight: 800;
+} 
+ */
+
+
+
+/* numberspeak ... */
+
+
+.body > .numberspeaks {
+    height:auto ;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.body > .numberspeaks > ul {
+  list-style: none;
+ 
+}
+
+
+.body > .numberspeaks > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .numberspeaks > ul > li > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color:black;
+}
+/* .body > .numberspeaks > ul > li > .line {
+     height: 6px;
+     width: 50px;
+     background-color: rgb(164, 161, 161);
+     position: relative;
+     top: -20px;
+} */
+
+.body > .numberspeaks > ul > li > div  {
+    list-style: none;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+
+
+.body > .numberspeaks > ul > li > div > ul {
+list-style: none;
+/* border: 0.1px solid rgb(219, 216, 216); */
+padding: 40px 50px 70px 50px;
+
+}
+
+
+.body > .numberspeaks > ul > li > div > ul > li {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .numberspeaks > ul > li > div > ul > li.h1 {
+    font-size: 30px;
+    font-weight: 700;
+} 
+/* .body > .numberspeaks > ul > li > div > ul > li > .linesecond {
+    height: 6px;
+    width: 50px;
+    background-color: rgb(164, 161, 161);
+    position: relative ;
+    top: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WHY US */ 
+
+.body > .whyus {
+    height:auto;
+    /* width: var(--windowwidth); */
+    background-color: rgb(249, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body > .whyus > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-inline: 100px;
+}
+.body > .whyus > ul > li {
+    margin-block: 20px;
+}
+.body > .whyus > ul > li.h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color:black;
+}
+
+.body > .whyus > ul > li.whyuscontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.body > .whyus > ul > li > ul {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    list-style: none;
+    margin: 30px;
+  
+}
+.body > .whyus > ul > li > ul > li {
+    display: flex;
+    margin-block: 10px;
+}
+.body > .whyus > ul > li > ul > li > div.icon {
+    margin-top: 3px ;
+}
+.body > .whyus > ul > li > ul > li.h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+}
+.body > .whyus > ul > li > ul > li.text {
+    line-height: 20pt;
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* our vision and mission */
+
+.body > .vistionmission {
+    height: auto;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+
+.body > .vistionmission  > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin-inline: 100px;
+    width: auto;
+    height: auto;
+}
+.body > .vistionmission  > ul > li {
+    
+}
+.body > .vistionmission  > ul > li > ul {
+    margin-block: 10px;
+    list-style: none;
+
+}
+.body > .vistionmission  > ul > li > ul > li {
+    font-size: 18px;
+    margin-block: 20px;
+}
+.body > .vistionmission  > ul > li > ul > li.text {
+    line-height: 20pt;
+}
+.body > .vistionmission  > ul > li > ul > li.h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+}
+
+
+.newline {
+    height: 2px;
+    width: 90px;
+    background-color: orange;
+}
+
+
+
+
+.body > .vistionmission  > ul > li.industrysectors {
+    height: 100%;
+    width: 60%;
+    margin:0px 0px 0px 100px;
+}
+
+.body > .vistionmission  > ul > li.industrysectors > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    margin-left: 35px;
+    /* text-align: center; */
+}
+.body > .vistionmission  > ul > li.industrysectors > ul {
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    
+}
+.body > .vistionmission  > ul > li.industrysectors > ul > li {
+    margin-block: 7px;
+    text-align: left;
+}
+
+
+
+.body > .vistionmission  > ul > li.industrysectors > ul > li >.plusparent > .plus{
+    color:orange;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+
+}
+
+
+.body > .vistionmission  > ul > li.industrysectors > ul > li >.plusparent {
+    height: 60px;
+    width: 40px;
+    align-items: baseline;
+}
+
+.hrHomes{
+    height: 1px;
+    width: 75%;
+    background-color: rgb(227, 224, 224);
+}
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1200px) {
+  
+
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow-y: scroll;
+       overflow-y: hidden;
+
+    
+    }
+    
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    .body > .aboutintro{
+        background-color: rgb(43, 70, 108);
+        height: 500px;
+        width: var(--windowwidth);
+    }
+    
+    
+    .body > .aboutintro > .aboutus > ul {
+        list-style: none;
+        display: flex; 
+        padding: 0;
+        margin-inline: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 100px;
+    }
+    .body > .aboutintro > .aboutus > ul > .h1 {
+        font-size: 33px;
+        font-weight: 700;
+    }
+    .body > .aboutintro > .aboutus > ul > .text{
+        font-size: 15px;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    
+    
+                      /* ourstory */
+    
+    .body > .ourstory {
+        height: auto;
+        width: var(--windowwidth);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      justify-content: space-evenly; 
+    }
+    
+    
+    
+    .body > .ourstory > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 0;
+        height: auto;
+        list-style: none;
+        color: black;
+        margin-inline: 10px;
+    
+    }
+    
+    
+    .body > .ourstory > ul > li {
+        margin-inline: 10px;
+        margin-block: 40px;
+    }
+    .body > .ourstory > ul > li.movedown{
+       /* position: relative;
+       top:400px; */
+    }
+    
+    .body > .ourstory > ul > li > img {
+        height: 250px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow:10px 10px 80px 1px rgb(215, 212, 212);
+    
+    }
+    .body > .ourstory > ul > li > div {
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    
+    .body > .ourstory > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        font-size: 20px;
+        width: auto;
+        padding: 30px 20px 30px 20px;
+        border-radius: 10px;
+        box-shadow:10px 10px 80px 1px rgb(215, 212, 212);
+    }
+    .body > .ourstory > ul > li > ul > li {
+        margin-block: 20px;
+        color: rgb(55, 54, 54);
+        
+    
+    }
+    .body > .ourstory > ul > li > ul > li.h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: black;
+    }
+    .body > .ourstory > ul > li > ul > li.text2,
+    .body > .ourstory > ul > li > ul > li.text1 {
+     text-align: center;
+     font-size: 15px;
+      
+    }
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* meetour team */ 
+    
+    .body > .meetourteam {
+        height: auto;
+        width: var(--windowwidth);
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .body > .meetourteam > ul {
+        width: 80%;
+        height: auto;
+        list-style: none;
+        color: black;
+        font-size: 15px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow:10px 10px 120px 1px rgb(233, 231, 231);
+    }
+    
+    .body > .meetourteam > ul > li {
+     margin-block: 50px;
+    }
+    .body > .meetourteam > ul > li.oneinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .meetourteam > ul > li.h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+    }
+    .body > .meetourteam > ul > li > ul {
+        width: auto;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-block: 20px;
+    
+    }
+    .body > .meetourteam > ul > li > ul > li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .body > .meetourteam > ul > li > ul > li > img {
+       height: 200px;
+       width: 100%;
+    }
+    .body > .meetourteam > ul > li > ul > li > div{ 
+        margin-block: 10px;
+
+    
+    }
+    .body > .meetourteam > ul > li > ul > li > div.h2 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: black;
+    }
+    .body > .meetourteam > ul > li > ul > li > div.text {}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* numberspeaks ... */
+    
+    
+    .body > .numberspeaks {
+        /* height:800px ; */
+        background-color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px 100px 0px; 
+    }
+    
+    
+    .body > .numberspeaks > ul {
+      list-style: none;
+      padding:0;
+     
+    }
+    
+    
+    .body > .numberspeaks > ul > li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .body > .numberspeaks > ul > li > h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color:black;
+    }
+    
+    .body > .numberspeaks > ul > li > div  {
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+   
+       
+    }
+    
+    
+    
+    .body > .numberspeaks > ul > li > div > ul {
+    list-style: none;
+    padding: 0;
+     padding: 30px 30px 30px 30px;
+  
+    
+    }
+    
+    
+    .body > .numberspeaks > ul > li > div > ul > li {
+        font-size: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .numberspeaks > ul > li > div > ul > li.h1 {
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    /* WHY US */ 
+    
+    .body > .whyus {
+        height: auto;
+        width: var(--windowwidth);
+        background-color: rgb(249, 247, 247);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .body > .whyus > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        /* margin-inline: 500px; */
+    }
+    .body > .whyus > ul > li {
+        margin-block: 5px;
+    }
+    .body > .whyus > ul > li.h1 {
+        font-size: 40px;
+        font-weight: 900;
+        color:black;
+    }
+    
+    .body > .whyus > ul > li.whyuscontent {
+       
+    
+    }
+    
+    .body > .whyus > ul > li > ul {
+        height: auto;
+        width: auto;
+        font-size: 15px;
+        list-style: none;
+        padding: 0;
+        margin: 30px;
+      
+    }
+    .body > .whyus > ul > li > ul > li {
+        display: flex;
+        margin-block: 10px;
+    }
+
+    .body > .whyus > ul > li > ul > li > div.icon {
+        margin-top: 2px ;
+    }
+
+    .body > .whyus > ul > li > ul > li.h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color:black;
+    }
+    .body > .whyus > ul > li > ul > li.text {
+        line-height: 30px;
+        color: rgb(58, 58, 58);
+        font-weight: 400;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* our vision and mission */
+    
+    .body > .vistionmission {
+        height: auto;
+        /* width: var(--windowwidth); */
+        background-color: white;
+        display: flex;
+        padding: 0px 30px 0px 30px  ;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .body > .vistionmission  > ul {
+        list-style: none;
+        padding: 0;
+        /* margin-inline: 400px; */
+        width: auto;
+        height: auto;
+    }
+    .body > .vistionmission  > ul > li {
+        
+    }
+    .body > .vistionmission  > ul > li > ul {
+        margin-block: 10px;
+        list-style: none;
+        padding: 0;
+    
+    }
+    .body > .vistionmission  > ul > li > ul > li {
+        font-size: 15px;
+        margin-block: 10px;
+    }
+    .body > .vistionmission  > ul > li > ul > li.text {
+        line-height: 30px;
+    }
+    .body > .vistionmission  > ul > li > ul > li.h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color:black;
+    }
+    /* .body > .vistionmission  > ul > li > ul > li {} */
+    
+    .newline {
+        height: 2px;
+        width: 45px;
+        background-color: orange;
+    }
+    
+    
+    
+    
+    .body > .vistionmission  > ul > li.industrysectors {
+        height: 100%;
+        /* width: 60%; */
+        /* margin:0px 0px 0px 100px; */
+    }
+    
+    .body > .vistionmission  > ul > li.industrysectors > h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color:black;
+        /* margin-left: 35px; */
+        /* text-align: center; */
+    }
+    .body > .vistionmission  > ul > li.industrysectors > ul {
+        font-size: 15px;
+        font-weight: 600;
+        list-style: none;
+        
+    }
+    .body > .vistionmission  > ul > li.industrysectors > ul > li {
+        margin-block: 5px;
+
+    }
+    
+    
+    
+    .body > .vistionmission  > ul > li.industrysectors > ul > li >.plusparent > .plus{
+        color:orange;
+        font-size: 25px;
+        position: relative;
+        top: 8px;
+    
+    }
+    
+    
+    .body > .vistionmission  > ul > li.industrysectors > ul > li >.plusparent {
+        height: 40px;
+        width: 40px;
+        /* align-items: baseline; */
+    }
+    
+    .hrHomes{
+        height: 2px;
+        width: 80%;
+        background-color: rgb(227, 224, 224);
+    }
+    
+    
+     }
+
+
+
+
+
+
+
+
+
+

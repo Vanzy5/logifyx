@@ -1,0 +1,1428 @@
+
+
+ @media screen and (min-width: 1200px) {
+  
+
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: scroll;
+}
+
+.body::-webkit-scrollbar{
+    
+}
+
+
+
+   /* Intro Styles ...... */
+.body > .intro{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+    background-size: cover;
+}
+
+.body > .intro > .introtextsection{
+    background-color: transparent;
+    height: 50%;
+    width: 40%;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+.body > .intro > .introtextsection > ul {
+    font-size: 18px;
+    list-style: none;
+}
+
+.body > .intro > .introtextsection > ul > li {
+    color:white;
+    margin-block: 60px;
+}
+.body > .intro > .introtextsection > ul > li > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color:white;
+}
+
+.body > .intro > .introtextsection > ul > li > .introreadmore {
+    
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 170px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.body > .intro > .introtextsection > ul > li > .introreadmore:hover{
+    background-color: orange;
+}
+
+
+
+
+.body > .intro > .introinfoconnect {
+    height:auto ;
+    width: auto;
+    position: relative;
+    top: 50px;
+    float: right;
+    display: flex;
+}
+.body > .intro > .introinfoconnect  > ul {
+    list-style: none;
+    background-color: white;
+    padding: 40px 100px 30px 30px;
+    border: 0.5px solid rgb(187, 185, 185);
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px ;
+}
+/* .body > .intro > .introinfoconnect  > ul > li {} */
+.body > .intro > .introinfoconnect  > ul > li > .introline {
+    height: 4px;
+    width: 90px;
+    background-color: orangered;
+}
+.body > .intro > .introinfoconnect  > ul > li > h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
+.body > .intro > .introinfoconnect  > ul >  .introgreatericon {
+    
+    font-size: 60px;
+    color: rgb(136, 135, 135);   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* About Styles .... */
+.body > .about {
+    padding-top: 100px;
+    height: auto;
+    width: var(--windowwidth);
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.body > .about > .aboutwrapper{
+    height: 70%; 
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.body > .about > .aboutwrapper > .aboutpart {
+     height: 100%;
+     width: 65%;
+}
+
+
+.body > .about > .aboutwrapper > .aboutpart  > ul {
+    font-size: 18px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.body > .about > .aboutwrapper > .aboutpart  > ul > li{
+    margin-block: 20px;
+    color: rgb(120, 119, 119);
+    line-height: 30px;
+}
+
+.body > .about > .aboutwrapper > .aboutpart  > ul > li > h1{
+ font-size: 50px;
+ font-weight: 700;
+ color:black;
+
+}
+.body > .about > .aboutwrapper > .aboutpart  > ul > li > h4{
+ font-size: 20px;
+ font-weight: 500;
+ color:black;
+}
+
+
+.body > .about > .aboutwrapper > .industrysectors {
+    height: 100%;
+    width: 26%;
+    
+ 
+
+}
+
+.body > .about > .aboutwrapper > .industrysectors > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+}
+.body > .about > .aboutwrapper > .industrysectors > ul {
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    
+}
+.body > .about > .aboutwrapper > .industrysectors > ul > li {
+    margin-block: 5px;
+    text-align: end;
+}
+
+.body > .about > .aboutwrapper > .industrysectors > ul > li >.plusparent > .plus{
+    color:orange;
+    font-size: 30px;
+    position: relative;
+    top: 8px;
+
+}
+
+
+.body > .about > .aboutwrapper > .industrysectors > ul > li >.plusparent {
+    height: 60px;
+    width: 40px;
+    align-items: baseline;
+}
+
+.hrHome{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(227, 224, 224);
+}
+
+
+
+
+
+
+
+
+
+
+   /* "how we help you" section styles..... */
+
+   .body > .howwehelpyou {
+    height:auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:100px  0px  100px   0px;
+   } 
+
+
+   .body > .howwehelpyou > .howwehelpyoucontainer {
+    height:auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px 0px 150px ;
+   }
+
+   .body > .howwehelpyou >  h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+  
+   } 
+
+   .body > .howwehelpyou > .howwehelpyoucontainer >  ul {
+   height: auto;
+    background-color: rgb(50, 49, 49);
+    opacity: 90%;
+    font-size:18px;
+    margin-inline: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 5px 100px 5px;
+    border-radius: 20px;
+   }
+
+   .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li {
+    margin-inline-start: 30px;
+    color: white;
+    line-height: 30px;
+  
+   }
+    .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li > h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color:white;
+   } 
+
+   /* .howwehelplistitem{
+    margin-block: 20px;
+    margin-inline-start: 30px;
+    color: white;
+    
+   } */
+
+   .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li > .howweIcon  {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: black ;
+        font-size: 40px;
+ 
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+                /* ourcustomerstrust.. */
+   .body > .ourcustomerstrust  {
+    height: auto;
+    /* width: var(--windowwidth); */
+    display: flex;
+    align-items: center;
+    
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer {
+      width: 30%;
+      height: auto;
+      margin-left: 200px;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    margin-block: 50px;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul > li {
+    margin-block: 40px;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+   }
+  .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials {
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourstars{
+     color: orange;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials:hover {
+    background-color: orange;
+}
+
+.body > .ourcustomerstrust > .ourcustomercontainer > ul > li > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-inline-end: 30px;
+}
+
+.body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourcustomer {
+    display: flex;
+    align-items: center;
+    color: orange;
+    /* justify-content: center; */
+}
+   
+
+
+
+
+
+
+
+/* Why choose us styles .. */
+
+.body > .whychooseuse {
+    height: var(--windowheight);
+    width: var(--windowwidth);
+    display: flex;
+    
+}
+
+.body > .whychooseuse  > .questionwhy {
+    width: 34.6%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.body > .whychooseuse  > .questionwhy > h1 {
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.body > .whychooseuse  > .answerwhy{
+   width: 65.4%;
+   height: 100%;
+   background-color: blue;
+}
+
+
+
+
+
+.body > .whychooseusepart2 {
+    height: 0px;
+    width: auto;
+    display: flex;
+    /* float:right; */
+   position: relative;
+   top: -416px;
+    left: 46.5%;
+
+}
+
+.body > .whychooseusepart2 > ul {
+    height: 400px;
+    width: 15%;
+    background-color: white;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+
+}
+
+.body > .whychooseusepart2 > ul > li > .whyicons {
+    margin-top: 40px;
+    font-size: 40px;
+    color: rgb(170, 167, 167);
+}
+
+.body > .whychooseusepart2 > ul > li {
+    margin-inline: 10px;
+   
+}
+
+.body > .whychooseusepart2 > ul > li > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+
+}
+
+
+
+
+
+
+
+/* patners ....  */
+
+.body > .partners{ 
+    height: 200px;
+    background-color:rgb(65, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.body > .partners > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    margin-inline-end: 100px;
+}
+.body > .partners > div {
+  
+}
+.body > .partners > div > img {
+   height: 100px;
+   width: 150px; 
+   margin-inline-end: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* numberspeak ... */
+
+
+.body > .numberspeak {
+    height:auto ;
+    background-color: rgb(13, 155, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.body > .numberspeak > ul {
+  list-style: none;
+ 
+}
+
+
+.body > .numberspeak > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .numberspeak > ul > li > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color:white;
+}
+.body > .numberspeak > ul > li > .line {
+     height: 6px;
+     width: 50px;
+     background-color: rgb(164, 161, 161);
+     position: relative;
+     top: -20px;
+}
+
+.body > .numberspeak > ul > li > div  {
+    list-style: none;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+
+
+.body > .numberspeak > ul > li > div > ul {
+list-style: none;
+border: 0.1px solid rgb(219, 216, 216);
+padding: 40px 20px 70px 20px;
+
+}
+
+
+.body > .numberspeak > ul > li > div > ul > li {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .numberspeak > ul > li > div > ul > li.h1 {
+    font-size: 30px;
+} 
+.body > .numberspeak > ul > li > div > ul > li > .linesecond {
+    height: 6px;
+    width: 50px;
+    background-color: rgb(164, 161, 161);
+    position: relative ;
+    top: 20px;
+}
+
+
+
+
+
+
+/* .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 35px;
+    width: 400px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+   }
+
+   .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourstars{
+     color: orange;
+   } */
+
+
+
+/* Have a question ?  */
+
+.body > .haveaquestion {
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.body > .haveaquestion > ul  {
+    list-style: none;
+
+}
+
+.body > .haveaquestion > ul > .h1{
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+}
+
+.body > .haveaquestion > ul > li > ul{
+    list-style: none;
+    display: flex;
+}
+
+.body > .haveaquestion > ul > li > ul > li {
+    margin-inline: 10px;
+    margin-block: 20px;
+}
+
+.body > .haveaquestion > ul > li > ul > li > .estimatebtn {
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.body > .haveaquestion > ul > li > ul > li > .estimatebtn:hover {
+    background-color: orange;
+}
+
+.body > .haveaquestion > ul > li > ul > li > .contactbtn {
+    background-color: white;
+    color: rgb(13, 155, 244);
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.body > .haveaquestion > ul > li > ul > li > .contactbtn:hover {
+   border-color:orange;
+   background-color: rgb(13, 155, 244);
+   color: white;
+}
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ @media screen and (max-width: 1200px) {
+  
+
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow: scroll;
+       overflow-x: hidden;
+       background-color: black;
+    }
+    
+    .body::-webkit-scrollbar{
+        
+    }
+    
+    
+    
+       /* Intro Styles ...... */
+    .body > .intro{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+        background-size: cover;
+        /* overflow-x: hidden; */
+   
+    }
+    
+    .body > .intro > .introtextsection{
+        height: 50%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .body > .intro > .introtextsection > ul {
+        font-size: 15px;
+        list-style: none;
+    }
+    
+    .body > .intro > .introtextsection > ul > li.text {
+        line-height: 30px;
+    }
+    .body > .intro > .introtextsection > ul > li {
+        color:white;
+        margin-block: 10px;
+    }
+    .body > .intro > .introtextsection > ul > li > h1 {
+        font-size: 30px;
+        color:white;
+    }
+    
+    .body > .intro > .introtextsection > ul > li > .introreadmore {
+        
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 100px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    
+    }
+    
+    .body > .intro > .introtextsection > ul > li > .introreadmore:hover{
+        background-color: orange;
+    }
+    
+    
+    
+    
+    .body > .intro > .introinfoconnect {
+         /* height:0px ; */
+       /* width: 100%; */
+        position: relative;
+        top: 80px;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: white;
+    }
+    .body > .intro > .introinfoconnect  > ul {
+        list-style: none;
+        margin-block: 0px;
+        background-color: white;
+        padding: 10px 60px 10px 10px;
+        border: 0.5px solid rgb(187, 185, 185);
+        border-top: 0px;
+     
+    }
+    /* .body > .intro > .introinfoconnect  > ul > li {} */
+    .body > .intro > .introinfoconnect  > ul > li > .introline {
+        height: 2px;
+        width: 60px;
+        background-color: orangered;
+    }
+    .body > .intro > .introinfoconnect  > ul > li > h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color:black;
+    }
+    .body > .intro > .introinfoconnect  > ul >  .introgreatericon {
+        
+        font-size: 30px;
+        color: rgb(136, 135, 135);   
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      /* About Styles .... */
+    .body > .about {
+        height: auto;
+        width: var(--windowwidth);
+        background-color: white; 
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px 100px 0px;
+    }
+    
+    
+    .body > .about > .aboutwrapper{
+        height: 70%; 
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    
+    
+    .body > .about > .aboutwrapper > .aboutpart {
+         height: 100%;
+         width: 95%;
+    }
+    
+    
+    .body > .about > .aboutwrapper > .aboutpart  > ul {
+        font-size: 20px;
+        list-style: none;
+        padding: 0;
+        margin-left: 5px;
+    }
+    
+    .body > .about > .aboutwrapper > .aboutpart  > ul > li{
+        margin-block: 10px;
+        color: rgb(69, 68, 68);
+    }
+    
+    .body > .about > .aboutwrapper > .aboutpart  > ul > li > h1{
+     font-size: 30px;
+     font-weight: 700;
+     color:black;
+    
+    }
+    .body > .about > .aboutwrapper > .aboutpart  > ul > li > h4{
+     font-size: 20px;
+     font-weight: 500;
+     color:black;
+    }
+    
+    
+    .body > .about > .aboutwrapper > .industrysectors {
+        height: 100%;
+        width: 100%;
+        
+     
+    
+    }
+    
+    .body > .about > .aboutwrapper > .industrysectors > h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color:black;
+        text-align: center;
+    }
+    .body > .about > .aboutwrapper > .industrysectors > ul {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+        list-style: none;
+        
+    }
+    .body > .about > .aboutwrapper > .industrysectors > ul > li {
+        margin-block: 5px;
+        /* text-align: end; */
+    }
+    
+    .body > .about > .aboutwrapper > .industrysectors > ul > li >.plusparent > .plus{
+        color:orange;
+        font-size: 30px;
+        position: relative;
+        top: 8px;
+    
+    }
+    
+    
+    .body > .about > .aboutwrapper > .industrysectors > ul > li >.plusparent {
+        height: 60px;
+        width: 40px;
+        align-items: baseline;
+    }
+    
+    .hrHome{
+        height: 1px;
+        width: 90%;
+        background-color: rgb(227, 224, 224);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       /* "how we help you" section styles..... */
+    
+       .body > .howwehelpyou {
+        height: auto;
+        /* width: var(--windowwidth); */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       } 
+    
+    
+       .body > .howwehelpyou > .howwehelpyoucontainer {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       }
+    
+       .body > .howwehelpyou >  h1{
+        font-size: 30px;
+        font-weight: 700;
+        color:white;
+      
+       } 
+    
+       .body > .howwehelpyou > .howwehelpyoucontainer >  ul {
+        height: auto;
+        width: 90%;
+        padding: 0;
+        background-color: rgb(50, 49, 49);
+        opacity: 90%;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 150px 2px 50px 2px;
+        border-radius: 20px;
+       }
+    
+       .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li {
+        margin-inline: 20px;
+        line-height: 30px;
+        font-size: 15px;
+        color: white;
+      
+       }
+        .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li > h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color:white;
+       } 
+    
+       /* .howwehelplistitem{
+        margin-block: 20px;
+        margin-inline-start: 30px;
+        color: white;
+        
+       } */
+    
+       .body > .howwehelpyou > .howwehelpyoucontainer >  ul > li > .howweIcon  {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: black ;
+            font-size: 40px;
+        
+       }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                     
+                    /* ourcustomerstrust.. */
+       .body > .ourcustomerstrust  {
+        height: var(--windowheight);
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer {
+          width: 90%;
+          height: auto;
+          margin-left: 20px;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul {
+        list-style: none;
+        padding: 0;
+        font-size: 15px;
+        color: white;
+        margin-block: 10px;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li {
+        margin-block: 40px;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color:white;
+       }
+      .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials {
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px 20px 10px 20px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 150px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourstars{
+         color: orange;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.text{
+        line-height: 30px;
+       }
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials:hover {
+        background-color: orange;
+    }
+    
+    .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin-inline-end: 30px;
+    }
+    
+    .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourcustomer {
+        display: flex;
+        align-items: center;
+        color: orange;
+        /* justify-content: center; */
+    }
+       
+    
+    
+    
+    
+    
+    
+    
+    /* Why choose us styles .. */
+    
+    .body > .whychooseuse {
+        height: 800px;
+        height: auto;
+        width: var(--windowwidth);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .body > .whychooseuse  > .questionwhy {
+        padding: 100px 0px 100px 0px;
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .body > .whychooseuse  > .questionwhy > h1 {
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .body > .whychooseuse  > .answerwhy{
+       width: 100%;
+       height: 200px;
+       background-color: blue;
+    }
+    
+    
+    
+    
+    
+    .body > .whychooseusepart2 {
+        
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 70px 0px;
+
+       /* position: relative;
+       top: -835px;
+        left: 37%; */
+    
+    }
+    
+    .body > .whychooseusepart2 > ul {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        font-size: 15px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    
+    }
+    
+    .body > .whychooseusepart2 > ul > li > .whyicons {
+        margin-top: 50px;
+    }
+    
+    .body > .whychooseusepart2 > ul > li {
+        margin-inline: 20px;
+        line-height: 30px;
+       
+    }
+    
+    .body > .whychooseusepart2 > ul > li > h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color:black;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* patners ....  */
+    
+    .body > .partners{ 
+        /* height: 500px; */
+        height: auto;
+        background-color:rgb(65, 64, 64);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0px 50px 0px ;
+
+    }
+    .body > .partners > h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color:white;
+        /* margin-inline-end: 100px; */
+    }
+    .body > .partners > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .body > .partners > div > img {
+       height: 80px;
+       width: 90px; 
+       margin-inline: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* numberspeak ... */
+    
+    
+    .body > .numberspeak {
+        height:auto ;
+        background-color: rgb(13, 155, 244);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    
+    
+    .body > .numberspeak > ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    
+    .body > .numberspeak > ul > li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .numberspeak > ul > li > h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color:white;
+    }
+    .body > .numberspeak > ul > li > .line {
+         height: 6px;
+         width: 60px;
+         background-color: rgb(164, 161, 161);
+         position: relative;
+         top: -10px;
+    }
+    
+    .body > .numberspeak > ul > li > div  {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    
+    
+    
+    .body > .numberspeak > ul > li > div > ul {
+    list-style: none;
+    padding: 0;
+    border: 0.1px solid rgb(206, 206, 206);
+
+    padding: 30px 40px 50px 40px;
+
+    
+    }
+    
+    
+    .body > .numberspeak > ul > li > div > ul > li {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .numberspeak > ul > li > div > ul > li.h1 {
+        font-size: 50px;
+    } 
+    .body > .numberspeak > ul > li > div > ul > li > .linesecond {
+        height: 6px;
+        width: 60px;
+        background-color: rgb(164, 161, 161);
+        position: relative ;
+        top: 25px;
+    }
+    
+    
+    
+    
+    
+    
+    /* .body > .ourcustomerstrust > .ourcustomercontainer > ul > li > .moretestimonials {
+        background-color: black;
+        color: antiquewhite;
+        padding: 20px;
+        border-radius: 40px;
+        font-size: 35px;
+        width: 400px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+       }
+    
+       .body > .ourcustomerstrust > .ourcustomercontainer > ul > li.ourstars{
+         color: orange;
+       } */
+    
+    
+    
+    /* Have a question ?  */
+    
+    .body > .haveaquestion {
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 70px 0px 70px 0px;
+    
+    }
+    
+    
+    .body > .haveaquestion > ul  {
+        list-style: none;
+        padding: 0;
+    
+    }
+    
+    .body > .haveaquestion > ul > .h1{
+        font-size: 30px;
+        font-weight: 700;
+        color:black;
+        text-align: center;
+    }
+    
+    .body > .haveaquestion > ul > li > ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        
+    }
+    
+    .body > .haveaquestion > ul > li > ul > li {
+        /* margin-inline: 20px; */
+        margin-block: 20px;
+    }
+    
+    .body > .haveaquestion > ul > li > ul > li > .estimatebtn {
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 200px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    .body > .haveaquestion > ul > li > ul > li > .estimatebtn:hover {
+        background-color: orange;
+    }
+    
+    .body > .haveaquestion > ul > li > ul > li > .contactbtn {
+        background-color: white;
+        color: rgb(13, 155, 244);
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 200px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    
+    .body > .haveaquestion > ul > li > ul > li > .contactbtn:hover {
+       border-color:orange;
+       background-color: rgb(13, 155, 244);
+       color: white;
+    }
+    
+    
+    
+     }

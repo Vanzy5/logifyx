@@ -1,0 +1,707 @@
+
+@media  screen and (min-width: 1200px) {
+
+
+
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+    background-color: white;
+   overflow: scroll;
+
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* automativesolution */
+
+.body > .automativesolution{
+    background-color:rgb(96, 96, 96);
+    height: auto;
+    width: var(--windowwidth);
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 50px 0px ;
+}
+
+
+.body > .automativesolution > ul {
+    list-style: none;
+    color: white;
+    margin-inline: 250px;
+    width: 35%;
+}
+
+.body > .automativesolution > ul > li {
+    margin-block: 10px;
+}
+.body > .automativesolution > ul > .h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30pt;
+}
+.body > .automativesolution > ul > .text{
+    font-size: 15px;
+    line-height: 20pt;
+    font-weight: 500;
+    
+}
+.body > .automativesolution > ul > .yesbtn{
+    
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+
+    
+}
+
+.body > .automativesolution > ul > .yesbtn:hover{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* thisiswhyshipauto */
+
+.body > .thisiswhyshipauto {
+    height: auto;
+    width: var(--windowwidth);
+    display: flex;
+    align-items: center;
+}
+.body > .thisiswhyshipauto > ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 120px;
+    margin-block: 50px;
+
+}
+.body > .thisiswhyshipauto > ul > li {
+   margin-block: 10px;
+}
+.body > .thisiswhyshipauto > ul > li.h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.body > .thisiswhyshipauto > ul > li.h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.body > .thisiswhyshipauto > ul > li > ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.body > .thisiswhyshipauto > ul > li > ul > li {
+    margin: 10px;
+    display: flex;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow:10px 10px 80px 1px rgb(237, 236, 236);
+    
+
+    
+}
+.body > .thisiswhyshipauto > ul > li > ul > li > ul  {
+    /* padding: 5; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.body > .thisiswhyshipauto > ul > li > ul > li:hover{
+    box-shadow:10px 10px 80px 1px rgb(204, 203, 203);
+
+}
+
+.body > .thisiswhyshipauto > ul > li > ul > li > ul > li {
+    margin-block: 10px;
+}
+.body > .thisiswhyshipauto > ul > li > ul > li > ul > li.iconthis {
+   position: relative;
+   bottom: 50px;
+   font-size: 50px;
+   color: orange;
+}
+.body > .thisiswhyshipauto > ul > li > ul > li > ul > li.iconthis:hover{
+  color: rgb(108, 107, 107);
+  font-size: 110px;
+}
+.body > .thisiswhyshipauto > ul > li > ul > li > ul > li.h3 {
+    font-size:20px;
+    font-weight: 800;
+    text-align: center;
+}
+.body > .thisiswhyshipauto > ul > li > ul > li > ul > li.text {
+    line-height: 30pt;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    margin: 0px 30px 0px 0px;
+}
+
+
+
+
+
+
+
+/* personsfsauto */
+
+
+
+.body > .personsfsauto {
+    height:auto;
+    width: var(--windowwidth);
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.body > .personsfsauto > ul {
+    margin-inline: 100px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    list-style: none;
+    /* margin-block: 200px; */
+
+}
+.body > .personsfsauto > ul > li {}
+.body > .personsfsauto > ul > li > ul {
+    list-style: none;
+    font-size: 15px;
+    margin-inline: 10px;
+
+}
+.body > .personsfsauto > ul > li > ul > li {
+    margin-block:20px;
+    margin-inline: 10px;
+}
+.body > .personsfsauto > ul > li > ul > li.line {
+    height: 1px;
+    width: 100%;
+    background-color: orange;
+}
+.body > .personsfsauto > ul > li > ul > li.userp {
+    display: flex;
+    align-items: center;
+   
+}
+.body > .personsfsauto > ul > li > ul > li.userp > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.body > .personsfsauto > ul > li > ul > li.userp > .name {
+   margin-left: 20px;
+}  
+.body > .personsfsauto > ul > li > ul > li.stars {
+    display: flex;
+    font-size: 20px;
+    color: orange;
+}
+.body > .personsfsauto > ul > li > ul > li.text {
+    line-height: 20pt;
+}
+
+
+
+
+
+
+/* freeestimaatesauto */
+
+.body > .freeestimaatesauto {
+    height: auto;
+    background-color: rgb(86, 85, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .freeestimaatesauto > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+
+    
+}
+.body > .freeestimaatesauto > ul > li{
+    margin-block: 20px;
+}
+.body > .freeestimaatesauto > ul > li.getaqoutbtn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 120px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.body > .freeestimaatesauto > ul > li.getaqoutbtn:hover{
+    background-color: orange;
+    
+}
+
+.body > .freeestimaatesauto > ul > li > ul {
+    list-style: none;
+}
+.body > .freeestimaatesauto > ul > li > ul > li{
+    margin-block: 20px;
+}
+.body > .freeestimaatesauto > ul > li > ul > li.h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(242, 207, 207);
+}
+.body > .freeestimaatesauto > ul > li > ul > li.h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:1200px) {
+
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+        background-color: white;
+       overflow: scroll;
+    
+    }
+    
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    
+    /* automativesolution */
+    
+    .body > .automativesolution{
+        background-color:rgb(96, 96, 96);
+        height: auto;
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    
+    .body > .automativesolution > ul {
+        list-style: none;
+        color: white;
+        padding: 0;
+        margin-inline: 40px;
+        width: 70%;
+    }
+    
+    .body > .automativesolution > ul > li {
+        margin-block: 10px;
+    }
+    .body > .automativesolution > ul > .h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .body > .automativesolution > ul > .text{
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 300;
+        
+    }
+    .body > .automativesolution > ul > .yesbtn{
+        
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+        position: relative;
+        top: 10px;
+        
+    }
+    
+    .body > .automativesolution > ul > .yesbtn:hover{
+        background-color: orange;
+    }
+    
+    
+    
+    
+    
+    /* thisiswhyshipauto */
+    
+    .body > .thisiswhyshipauto {
+        height: auto;
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+    }
+    .body > .thisiswhyshipauto > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 10px;
+        margin-block: 20px;
+        padding: 0;
+    
+    }
+    .body > .thisiswhyshipauto > ul > li {
+       margin-block: 20px;
+    }
+    .body > .thisiswhyshipauto > ul > li.h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .body > .thisiswhyshipauto > ul > li.h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li {
+        margin: 4px;
+        display: flex;
+        min-height: 200px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow:10px 10px 80px 1px rgb(237, 236, 236);
+        
+    
+        
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul  {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 30px;
+        padding: 0;
+    }
+    
+    .body > .thisiswhyshipauto > ul > li > ul > li:hover{
+        box-shadow:10px 10px 80px 1px rgb(204, 203, 203);
+    
+    }
+    
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul > li {
+        margin-block: 10px;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul > li.iconthis {
+       font-size: 30px;
+       color: orange;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul > li.iconthis:hover{
+      color: rgb(108, 107, 107);
+      font-size: 40px;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul > li.h3 {
+        font-size:20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .body > .thisiswhyshipauto > ul > li > ul > li > ul > li.text {
+        line-height: 30px;
+        color: rgb(88, 87, 87);
+        text-align: center;
+        margin: 0px 30px 0px 0px;
+    }
+    
+    
+    
+    
+    
+    
+/* .body > .personsfsauto { */
+
+
+
+    .body > .personsfsauto {
+        height:auto;
+        width: var(--windowwidth);
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .body > .personsfsauto > ul {
+        margin-inline: 10px;
+        /* display: grid;
+        grid-template-columns: 1fr  1fr; */
+        list-style: none;
+        margin-block: 50px;
+        padding: 0;
+    
+    }
+    .body > .personsfsauto > ul > li {}
+    .body > .personsfsauto > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        font-size: 15px;
+        margin-block:30px;
+        /* margin-inline: 10px; */
+    
+    }
+    .body > .personsfsauto > ul > li > ul > li {
+        margin-block:20px;
+        margin-inline: 10px;
+    }
+    .body > .personsfsauto > ul > li > ul > li.line {
+        height: 1px;
+        width: 90%;
+        background-color: orange;
+    }
+    .body > .personsfsauto > ul > li > ul > li.userp {
+        display: flex;
+        align-items: center;
+       
+    }
+    .body > .personsfsauto > ul > li > ul > li.userp > img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .body > .personsfsauto > ul > li > ul > li.userp > .name {
+       margin-left: 20px;
+    }  
+    .body > .personsfsauto > ul > li > ul > li.stars {
+        display: flex;
+        font-size: 20px;
+        color: orange;
+    }
+    .body > .personsfsauto > ul > li > ul > li.text {
+        line-height: 30px;
+    }
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    /* freeestimaatesauto */
+    
+    .body > .freeestimaatesauto {
+        height: auto;
+        background-color: rgb(86, 85, 85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .freeestimaatesauto > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 90%;
+        padding: 0;
+    
+        
+    }
+    .body > .freeestimaatesauto > ul > li{
+    
+        margin-block: 10px;
+    }
+    .body > .freeestimaatesauto > ul > li.getaqoutbtn{
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px 25px 10px 25px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 100px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    
+    .body > .freeestimaatesauto > ul > li.getaqoutbtn:hover{
+        background-color: orange;
+        
+    }
+    
+    .body > .freeestimaatesauto > ul > li > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .body > .freeestimaatesauto > ul > li > ul > li{
+        margin-block: 10px;
+    }
+    .body > .freeestimaatesauto > ul > li > ul > li.h1{
+        font-size: 17px;
+        font-weight: 900;
+        text-align: center;
+        color: rgb(242, 207, 207);
+    }
+    .body > .freeestimaatesauto > ul > li > ul > li.h2{
+        font-size: 30px;
+        font-weight: 900;
+        color: white;
+    }
+    
+        
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 2000px) {
+
+}
+    

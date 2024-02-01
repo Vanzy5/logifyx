@@ -1,0 +1,150 @@
+/* @media screen and (min-width:1200px){ */
+    
+
+
+
+.bodyview{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: hidden;
+
+}
+
+.bodyview > .viewbodycontainer { 
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: scroll;
+ 
+}
+/* 
+.bodyview > .viewbodycontainer::-webkit-scrollbar{
+    display: none;
+}
+
+.bodyview > .viewbodycontainer > table {
+    font-size: 60px;
+    width: 80%;
+    margin-inline: 300px;
+}
+
+
+.bodyview > .viewbodycontainer > table , 
+.bodyview > .viewbodycontainer > table > tr, 
+.bodyview > .viewbodycontainer > table > tr > td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} 
+
+tr > td.btn {
+    vertical-align: middle;
+    align-items: center;
+}
+.bodyview > .viewbodycontainer > table > tr > td.head {
+    font-size: 60px;
+    font-weight: 700;
+     margin-left: 50px;
+}
+.bodyview > .viewbodycontainer > table tr > td > button {
+    font-size: 60px;
+    color: white;
+    background-color: rgb(78, 76, 76);
+    border-radius: 10px;
+}
+
+.bodyview > .viewbodycontainer > table tr > td > button:hover{
+    background-color: orange;
+}
+
+
+
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1200px){ */
+    
+
+
+    .bodyview{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow-y: scroll;
+    
+    }
+    
+    .bodyview > .viewbodycontainer { 
+        height: auto;
+        width: var(--windowwidth);
+       overflow: scroll;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 100px 0px 100px 0px;
+     
+    }
+    
+    .bodyview > .viewbodycontainer::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .bodyview > .viewbodycontainer > table {
+        font-size: 15px;
+        width: 90%;
+ 
+    }
+    
+    
+    .bodyview > .viewbodycontainer > table , 
+    .bodyview > .viewbodycontainer > table > tr, 
+    .bodyview > .viewbodycontainer > table > tr > td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    } 
+    
+    tr > td.btn {
+        vertical-align: middle;
+        align-items: center;
+    }
+    .bodyview > .viewbodycontainer > table > tr > td.head {
+        font-size: 20px;
+        font-weight: 600;
+         margin-left: 10px;
+    }
+    .bodyview > .viewbodycontainer > table tr > td > button {
+        font-size: 15px;
+        color: white;
+        background-color: rgb(78, 76, 76);
+        border-radius: 10px;
+    }
+    
+    .bodyview > .viewbodycontainer > table tr > td > button:hover{
+        background-color: orange;
+    }
+    
+/* } */
+
+
+
+
+
+

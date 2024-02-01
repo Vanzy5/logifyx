@@ -1,0 +1,830 @@
+
+
+@media screen and (min-width:1200px) {
+    
+
+
+.bodycreate{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow-y: scroll;
+   /* overflow-x: hidden; */
+
+}
+
+.bodycreate::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.bodycreate > .trackorderformcontainer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: rgb(130, 126, 126);
+
+}
+.bodycreate > .trackorderformcontainer > ul{
+    margin-block: 50px;
+    padding: 0;
+    list-style: none;
+    font-size: 50px;
+    width: auto;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+}
+.bodycreate > .trackorderformcontainer > ul > li {}
+.bodycreate > .trackorderformcontainer > ul > li   {}
+
+.bodycreate > .trackorderformcontainer > ul > li > .printinvoice {
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > .printinvoice:hover {
+    background-color: rgb(140, 139, 136);
+}
+
+
+
+
+.bodycreate > .trackorderformcontainer > ul > li.h1{
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+    font-size: 30px;
+}
+.bodycreate > .trackorderformcontainer > ul > li > table{
+
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > table{
+    width: 900px;
+    background-color: white;
+    
+}
+.bodycreate > .trackorderformcontainer > ul > li > table, 
+.bodycreate > .trackorderformcontainer > ul > li > table > tr ,
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td {
+     border: 1px solid rgb(190, 186, 186);
+    border-collapse: collapse; 
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td.h1 {
+   font-weight: 700;
+
+}
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td {
+    padding: 5px 5px 5px 5px;
+    vertical-align: top;
+    
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > table > tr.trinput > td{ 
+  vertical-align: middle;
+}
+.bodycreate > .trackorderformcontainer > ul > li > table > tr{
+    height: 80px;
+}
+.bodycreate > .trackorderformcontainer > ul > li > table > tr.trinput{
+    height: 60px;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td > .buttontrack {
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td > .buttontrack:hover { background-color: orange;}
+
+
+
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td {}
+.bodycreate > .trackorderformcontainer > ul > li > table > tr > td > input {
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(201, 200, 200);
+    color: rgb(89, 89, 89);
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform {
+
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul  {
+    list-style: none;
+    padding: 0;
+    /* list-style-type: none; */
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li  {}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.title  {
+    height: auto;
+    font-weight: 500;
+   
+    font-size: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}  
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .photo {
+ 
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .photo >.barcode {
+
+  
+} 
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .code{
+    font-size: 15px;
+    color: rgb(96, 95, 95);
+}  
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li  {}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > div {}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver{
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li {}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.h1 {
+  
+    font-weight: 600;
+
+}
+/* .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.space {
+  width: 200px;
+} */
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li > div {
+    margin-block: 20px;
+    font-size: 15px;
+    color: rgb(80, 78, 78);
+  
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li > div > input {
+    margin-block: 20px;
+    font-size: 15px;
+    color: rgb(80, 78, 78);
+    height: 40px;
+    width: 300px;
+  
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.line > div {
+    background-color: rgb(164, 161, 161);
+  height: 2px;
+  width: 100%;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.line1 > div {
+  background-color: rgb(164, 161, 161);
+  height: 2px;
+  width: 90%;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > ul > li {}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > ul > li > div {}
+
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shipstatus {
+    width: 100%;
+    background-color: rgb(175, 170, 170);
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.S1{
+
+}
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.line {
+    background-color: rgb(164, 161, 161);
+    height: 2px;
+    width: 100%;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li {
+    margin-block: 20px;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info {
+    height: auto;
+    padding: 50px 0px 50px 0px;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li {
+    margin-block: 10px;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li > div{
+    margin-block: 10px;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li > div.h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li  > div.text{
+    font-size: 14px;
+    color: rgb(112, 111, 111);
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li  > div.text > input{
+    font-size: 15px;
+    color: rgb(112, 111, 111);
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li {}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable {}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul{
+    list-style: none;
+    padding: 0;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li.S1{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li.line{
+    background-color: rgb(164, 161, 161);
+    height: 2px;
+    width: 100%;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li{
+    margin-block: 20px;
+}
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table, 
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table >  tr, 
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table >  tr > td {
+   border-collapse: collapse;
+    border: 4px solid rgb(230, 230, 230);
+} 
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table{
+  width: 50%;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr{
+    height: 120px;
+    font-size: 15px;
+}
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr > td > input{
+       font-size: 15px;
+    color: rgb(112, 111, 111);
+}
+
+
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr.headtitle{
+    height: 50px;
+    color:white;
+    background-color: rgb(74, 189, 122);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 5px 0px 5px;
+}
+.bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr > td{
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    
+
+
+
+    .bodycreate{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow-y: scroll;
+       overflow-x: hidden;
+    
+    }
+    
+    .bodycreate::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    .bodycreate > .trackorderformcontainer {
+       
+        height: auto;
+        display: flex;
+        overflow-x: hidden;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        background-color:white;
+    
+    }
+    .bodycreate > .trackorderformcontainer > ul{
+        margin-block: 10px;
+        padding: 0;
+        list-style: none;
+        font-size: 15px;
+        width: auto;
+        background-color: white;
+        padding: 50px 200px 50px 200px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li {}
+    
+    .bodycreate > .trackorderformcontainer > ul > li > .printinvoice {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 100px;
+        float: right;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > .printinvoice:hover {
+        background-color: rgb(140, 139, 136);
+    }
+    
+    
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.h1{
+        font-weight: 500;
+        /* margin: 0px 0px 10px 0px; */
+        font-size: 20px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li > table{
+    
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table{
+        width: 90%;
+        background-color: white;
+        
+    }
+    .bodycreate > .trackorderformcontainer > ul > li > table, 
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr ,
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td {
+         border: 1px solid rgb(190, 186, 186);
+        border-collapse: collapse; 
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td.h1 {
+       font-weight: 700;
+    
+    }
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td {
+        /* padding: 10px 10px 10px 10px; */
+        vertical-align: top;
+        
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr.trinput > td{ 
+      vertical-align: middle;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr{
+        height: 40px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr.trinput{
+        height: 40px;
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td > .buttontrack {
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 100px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td > .buttontrack:hover { background-color: orange;}
+    
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td {}
+    .bodycreate > .trackorderformcontainer > ul > li > table > tr > td > input {
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(201, 200, 200);
+        color: rgb(89, 89, 89);
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform {
+    
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul  {
+        list-style: none;
+        padding: 0;
+        /* list-style-type: none; */
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li  {}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.title  {
+        height: auto;
+        font-weight: 500;
+        font-size: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }  
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .photo {
+     
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .photo >.barcode {
+    
+      
+    } 
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.barcode > .code{
+        /* font-size: 2px;
+        color: rgb(96, 95, 95); */
+    }  
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li  {}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > div {}
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver{
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul {
+        list-style: none;
+      
+        padding: 0;
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul {
+        list-style: none;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li {}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.h1 {
+      
+        font-weight: 600;
+        font-size:20px;
+    
+    }
+    /* .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.space {
+      width: 200px;
+    } */
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li > div {
+        margin-block: 10px;
+        font-size: 15px;
+        color: rgb(80, 78, 78);
+      
+    }
+    /* .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.line > div {
+        background-color: rgb(164, 161, 161);
+      height: 2px;
+      width: 90%;
+    } */
+    /* .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.sendandreciver > ul >li > ul > li.line1 > div {
+      background-color: rgb(164, 161, 161);
+      height: 2px;
+      width: 80%;
+    } */
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > ul > li {}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li > ul > li > div {}
+    
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shipstatus {
+        width: 100%;
+        background-color: rgb(175, 170, 170);
+        color: white;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+        font-size: 15px;
+        font-weight: 100;
+        
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.S1{
+    
+    }
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.line {
+        background-color: rgb(164, 161, 161);
+        height: 2px;
+        width: 100%;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li {
+        margin-block: 10px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info {
+        height: auto;
+        padding: 10px 0px 10px 0px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li {
+        margin-block: 10px;
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li > div{
+        margin-block: 10px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li > div.h1{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(65, 65, 65);
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.info > ul > li  > div.text{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(112, 111, 111);
+    }
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.S1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li {}
+    
+    
+    
+    
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable {}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul{
+        list-style: none;
+        padding: 0;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li.S1{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(65, 65, 65);
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li.line{
+        background-color: rgb(164, 161, 161);
+        height: 2px;
+        width: 100%;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li{
+        margin-block: 20px;
+    }
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table, 
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table >  tr, 
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table >  tr > td {
+       border-collapse: collapse;
+        border: 4px solid rgb(230, 230, 230);
+    } 
+    
+    
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table{
+      width: 100%;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr{
+        height: 120px;
+        font-size: 35px;
+    
+        /* font-weight: 600; */
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr.headtitle{
+        height: 120px;
+        color:white;
+        background-color: rgb(74, 189, 122);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0px 10px 0px 10px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.formtable > ul > li > table > tr > td{
+        text-align: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shipment history mobile */
+
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{
+
+        height: auto;
+    }
+
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > li.S1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul{
+        list-style: none;
+        padding: 0;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li {
+        margin-block: 0px;
+        border: 1px solid rgb(194, 193, 193);
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li.sendershipmobile {
+       background-color: rgb(241, 238, 238);
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li > ul > li{
+     
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        /* justify-content: space-between; */
+      
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile > ul > li > ul > li > ul >  li{
+        margin-inline: 20px;
+        margin-block: 10px;
+    }
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+    .bodycreate > .trackorderformcontainer > ul > li.trackform > ul > li.shpipmenthistorymobile{}
+
+
+    }

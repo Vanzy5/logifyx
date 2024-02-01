@@ -1,0 +1,652 @@
+
+@media  screen and (min-width:1200px) {
+
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+    background-color: white;
+   overflow: scroll;
+
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* roadtransportation */
+
+.body > .roadtransportation{
+    background-color:rgb(96, 96, 96);
+    height: auto;
+    width: var(--windowwidth);
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 50px 0px ;
+}
+
+
+.body > .roadtransportation > ul {
+    list-style: none;
+    color: white;
+    margin-inline: 250px;
+    width: 35%;
+}
+
+.body > .roadtransportation > ul > li {
+    margin-block: 10px;
+}
+.body > .roadtransportation > ul > .h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30pt;
+}
+.body > .roadtransportation > ul > .text{
+    font-size: 15px;
+    line-height: 20pt;
+    font-weight: 500;
+    
+}
+.body > .roadtransportation > ul > .yesbtn{
+    
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+
+    
+}
+
+.body > .roadtransportation > ul > .yesbtn:hover{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.body > .personsfsroad > ul > li > ul {
+    list-style: none;
+    font-size: 30px;
+    margin-inline: 30px;
+
+}
+.body > .personsfsroad > ul > li > ul > li {
+    margin-block:50px;
+    margin-inline: 30px;
+}
+.body > .personsfsroad > ul > li > ul > li.line {
+    height: 3px;
+    width: 100%;
+    background-color: orange;
+}
+.body > .personsfsroad > ul > li > ul > li.userp {
+    display: flex;
+    align-items: center;
+   
+}
+.body > .personsfsroad > ul > li > ul > li.userp > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.body > .personsfsroad > ul > li > ul > li.userp > .name {
+   margin-left: 50px;
+}  
+.body > .personsfsroad > ul > li > ul > li.stars {
+    display: flex;
+    font-size: 40px;
+    color: orange;
+}
+.body > .personsfsroad > ul > li > ul > li.text {
+    line-height: 40pt;
+}
+
+
+
+/* personsf */
+
+
+
+.body > .personsfsroad {
+    height:auto;
+    width: var(--windowwidth);
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.body > .personsfsroad > ul {
+    margin-inline: 100px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    list-style: none;
+    /* margin-block: 200px; */
+
+}
+.body > .personsfsroad > ul > li {}
+.body > .personsfsroad > ul > li > ul {
+    list-style: none;
+    font-size: 15px;
+    margin-inline: 10px;
+
+}
+.body > .personsfsroad > ul > li > ul > li {
+    margin-block:20px;
+    margin-inline: 10px;
+}
+.body > .personsfsroad > ul > li > ul > li.line {
+    height: 1px;
+    width: 100%;
+    background-color: orange;
+}
+.body > .personsfsroad > ul > li > ul > li.userp {
+    display: flex;
+    align-items: center;
+   
+}
+.body > .personsfsroad > ul > li > ul > li.userp > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.body > .personsfsroad > ul > li > ul > li.userp > .name {
+   margin-left: 20px;
+}  
+.body > .personsfsroad > ul > li > ul > li.stars {
+    display: flex;
+    font-size: 20px;
+    color: orange;
+}
+.body > .personsfsroad > ul > li > ul > li.text {
+    line-height: 20pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body > .freeestimaatesroad {
+    height: auto;
+    background-color: rgb(86, 85, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > .freeestimaatesroad > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+
+    
+}
+.body > .freeestimaatesroad > ul > li{
+    margin-block: 20px;
+}
+.body > .freeestimaatesroad > ul > li.getaqoutbtn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 120px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.body > .freeestimaatesroad > ul > li.getaqoutbtn:hover{
+    background-color: orange;
+    
+}
+
+.body > .freeestimaatesroad > ul > li > ul {
+    list-style: none;
+}
+.body > .freeestimaatesroad > ul > li > ul > li{
+    margin-block: 20px;
+}
+.body > .freeestimaatesroad > ul > li > ul > li.h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(242, 207, 207);
+}
+.body > .freeestimaatesroad > ul > li > ul > li.h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:1200px) {
+
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+        background-color: white;
+       overflow: scroll;
+    
+    }
+    
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    
+    /* roadtransportation */
+    
+    .body > .roadtransportation{
+        background-color:rgb(96, 96, 96);
+        height: auto;
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    
+    .body > .roadtransportation > ul {
+        list-style: none;
+        color: white;
+        padding: 0;
+        margin-inline: 40px;
+        width: 70%;
+    }
+    
+    .body > .roadtransportation > ul > li {
+        margin-block: 10px;
+    }
+    .body > .roadtransportation > ul > .h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .body > .roadtransportation > ul > .text{
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 300;
+        
+    }
+    .body > .roadtransportation > ul > .yesbtn{
+        
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+        position: relative;
+        top: 10px;
+        
+    }
+    
+    .body > .roadtransportation > ul > .yesbtn:hover{
+        background-color: orange;
+    }
+    
+    
+    
+    
+    
+    /* thisiswhyshiproad */
+    
+    .body > .thisiswhyshiproad {
+        height: auto;
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+    }
+    .body > .thisiswhyshiproad > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 10px;
+        margin-block: 20px;
+        padding: 0;
+    
+    }
+    .body > .thisiswhyshiproad > ul > li {
+       margin-block: 20px;
+    }
+    .body > .thisiswhyshiproad > ul > li.h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .body > .thisiswhyshiproad > ul > li.h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .body > .thisiswhyshiproad > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .body > .thisiswhyshiproad > ul > li > ul > li {
+        margin: 4px;
+        display: flex;
+        min-height: 200px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow:10px 10px 80px 1px rgb(237, 236, 236);
+        
+    
+        
+    }
+    .body > .thisiswhyshiproad > ul > li > ul > li > ul  {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 30px;
+        padding: 0;
+    }
+    
+    .body > .thisiswhyshiproad > ul > li > ul > li:hover{
+        box-shadow:10px 10px 80px 1px rgb(204, 203, 203);
+    
+    }
+    
+    .body > .thisiswhyshiproad > ul > li > ul > li > ul > li {
+        margin-block: 10px;
+    }
+    .body > .thisisthisiswhyshiproadwhy > ul > li > ul > li > ul > li.iconthis {
+       font-size: 30px;
+       color: orange;
+    }
+    .body > .thisiswhyshiproad > ul > li > ul > li > ul > li.iconthis:hover{
+      color: rgb(108, 107, 107);
+      font-size: 40px;
+    }
+    .body > .thisiswhyshiproad > ul > li > ul > li > ul > li.h3 {
+        font-size:20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .body > .thisiswhyshiproad > ul > li > ul > li > ul > li.text {
+        line-height: 30px;
+        color: rgb(88, 87, 87);
+        text-align: center;
+        margin: 0px 30px 0px 0px;
+    }
+    
+    
+    
+    
+    
+    
+/* .personsfsroad  */
+
+
+
+    .body > .personsfsroad {
+        height:auto;
+        width: var(--windowwidth);
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .body > .personsfsroad > ul {
+        margin-inline: 10px;
+        /* display: grid;
+        grid-template-columns: 1fr  1fr; */
+        list-style: none;
+        margin-block: 50px;
+        padding: 0;
+    
+    }
+    .body > .personsfsroad > ul > li {}
+    .body > .personsfsroad > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        font-size: 15px;
+        margin-block:30px;
+        /* margin-inline: 10px; */
+    
+    }
+    .body > .personsfsroad > ul > li > ul > li {
+        margin-block:20px;
+        margin-inline: 10px;
+    }
+    .body > .personsfsroad > ul > li > ul > li.line {
+        height: 1px;
+        width: 90%;
+        background-color: orange;
+    }
+    .body > .personsfsroad > ul > li > ul > li.userp {
+        display: flex;
+        align-items: center;
+       
+    }
+    .body > .personsfsroad > ul > li > ul > li.userp > img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .body > .personsfsroad > ul > li > ul > li.userp > .name {
+       margin-left: 20px;
+    }  
+    .body > .personsfsroad > ul > li > ul > li.stars {
+        display: flex;
+        font-size: 20px;
+        color: orange;
+    }
+    .body > .personsfsroad > ul > li > ul > li.text {
+        line-height: 30px;
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    /* freeestimaatesroad */
+    
+    .body > .freeestimaatesroad {
+        height: auto;
+        background-color: rgb(86, 85, 85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body > .freeestimaatesroad > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 90%;
+        padding: 0;
+    
+        
+    }
+    .body > .freeestimaatesroad > ul > li{
+    
+        margin-block: 10px;
+    }
+    .body > .freeestimaatesroad > ul > li.getaqoutbtn{
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px 25px 10px 25px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 100px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+    
+    .body > .freeestimaatesroad > ul > li.getaqoutbtn:hover{
+        background-color: orange;
+        
+    }
+    
+    .body > .freeestimaatesroad > ul > li > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .body > .freeestimaatesroad > ul > li > ul > li{
+        margin-block: 10px;
+    }
+    .body > .freeestimaatesroad > ul > li > ul > li.h1{
+        font-size: 17px;
+        font-weight: 900;
+        text-align: center;
+        color: rgb(242, 207, 207);
+    }
+    .body > .freeestimaatesroad > ul > li > ul > li.h2{
+        font-size: 30px;
+        font-weight: 900;
+        color: white;
+    }
+    
+        
+    }
+    
+    

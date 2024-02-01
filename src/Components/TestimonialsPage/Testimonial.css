@@ -1,0 +1,183 @@
+@media screen and (min-width: 1200px) {
+  
+
+
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: scroll;
+
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.body > .persons {
+    height:auto;
+    width: var(--windowwidth);
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.body > .persons > ul {
+    margin-inline: 100px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    list-style: none;
+    /* margin-block: 200px; */
+
+}
+.body > .persons > ul > li {}
+.body > .persons > ul > li > ul {
+    list-style: none;
+    font-size: 15px;
+    margin-inline: 10px;
+
+}
+.body > .persons > ul > li > ul > li {
+    margin-block:20px;
+    margin-inline: 10px;
+}
+.body > .persons > ul > li > ul > li.line {
+    height: 1px;
+    width: 100%;
+    background-color: orange;
+}
+.body > .persons > ul > li > ul > li.userp {
+    display: flex;
+    align-items: center;
+   
+}
+.body > .persons > ul > li > ul > li.userp > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.body > .persons > ul > li > ul > li.userp > .name {
+   margin-left: 20px;
+}  
+.body > .persons > ul > li > ul > li.stars {
+    display: flex;
+    font-size: 20px;
+    color: orange;
+}
+.body > .persons > ul > li > ul > li.text {
+    line-height: 20pt;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  
+
+
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow: scroll;
+    
+    }
+    
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    .body > .persons {
+        height:auto;
+        width: var(--windowwidth);
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .body > .persons > ul {
+        margin-inline: 10px;
+        /* display: grid;
+        grid-template-columns: 1fr  1fr; */
+        list-style: none;
+        margin-block: 50px;
+        padding: 0;
+    
+    }
+    .body > .persons > ul > li {}
+    .body > .persons > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        font-size: 15px;
+        margin-block:30px;
+        /* margin-inline: 10px; */
+    
+    }
+    .body > .persons > ul > li > ul > li {
+        margin-block:20px;
+        margin-inline: 10px;
+    }
+    .body > .persons > ul > li > ul > li.line {
+        height: 1px;
+        width: 90%;
+        background-color: orange;
+    }
+    .body > .persons > ul > li > ul > li.userp {
+        display: flex;
+        align-items: center;
+       
+    }
+    .body > .persons > ul > li > ul > li.userp > img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .body > .persons > ul > li > ul > li.userp > .name {
+       margin-left: 20px;
+    }  
+    .body > .persons > ul > li > ul > li.stars {
+        display: flex;
+        font-size: 20px;
+        color: orange;
+    }
+    .body > .persons > ul > li > ul > li.text {
+        line-height: 30px;
+    }
+    
+    }

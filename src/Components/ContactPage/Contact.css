@@ -1,0 +1,255 @@
+
+@media screen and (min-width: 1200px) {
+  
+.body{
+    height: var(--windowheight);
+    width: var(--windowwidth);
+   overflow: scroll;
+
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* contactintro  */
+
+.body > .contactintro{
+    background-color:transparent;
+    height: auto;
+    width: var(--windowwidth);
+
+   
+}
+
+
+.body > .contactintro > .aboutus {
+    padding: 50px 0px 50px 0px;
+}
+.body > .contactintro > .aboutus > ul {
+    list-style: none;
+    color: white;
+    margin-inline: 300px;
+    width: 40%;
+}
+.body > .contactintro > .aboutus > ul > .h1 {
+    font-size: 85px;
+    font-weight: 700;
+}
+.body > .contactintro > .aboutus > ul > .text{
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+/* contactinformation */
+.body > .contactinformation {
+    background-color:white;
+    height: auto;
+    width: var(--windowwidth);
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+}
+.body > .contactinformation > div {
+    /* width: 2000px; */
+    height: auto;
+    background-color: white;
+}
+/* .body > .contactinformation > div > div {
+
+} */
+.body > .contactinformation > div > div.line {
+    background-color: orange;
+    height: 2px;
+    width: 100%;
+}
+.body > .contactinformation > div > div > ul {
+    list-style: none;
+    display: grid; 
+    grid-template-columns: 1fr 1fr  1fr;
+}
+/* .body > .contactinformation > div > div > ul > li{} */
+.body > .contactinformation > div > div > ul > li > ul {
+    list-style: none;
+}
+.body > .contactinformation > div > div > ul > li > ul > li {
+    font-size: 20px;
+    margin-block: 10px;
+}
+.body > .contactinformation > div > div > ul > li > ul > li.icon {
+    font-size: 40px;
+    color: orange;
+    /* margin-block: 20px; */
+}
+.body > .contactinformation > div > div > ul > li > ul > li.h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  
+    .body{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow: scroll;
+    
+    }
+    
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    /* contactintro  */
+    
+    .body > .contactintro{
+        background-color:transparent;
+        height: var(--windowheight);
+        width: var(--windowwidth);
+      
+    }
+
+    .body > .contactintro > .aboutus {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .body > .contactintro > .aboutus > ul {
+        list-style: none;
+        padding: 0;
+        color: white;
+        margin-top: 200px;
+        width: 80%;
+        /* margin-inline: 60px; */
+        width: 90%;
+    }
+    .body > .contactintro > .aboutus > ul > .h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .body > .contactintro > .aboutus > ul > .text{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    /* contactinformation */
+    .body > .contactinformation {
+        background-color:white;
+        height:auto;
+        width: var(--windowwidth);
+        display: flex;
+   
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .body > .contactinformation > div {
+        width: 2000px;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .body > .contactinformation > div > div {
+    
+    } */
+    .body > .contactinformation > div > div.line {
+        background-color: orange;
+        height: 2px;
+        width: 82%;
+    }
+    .body > .contactinformation > div > div > ul {
+        list-style: none;
+        padding: 0;
+        /* display: grid; 
+        grid-template-columns: 1fr 1fr  1fr; */
+    }
+    /* .body > .contactinformation > div > div > ul > li{} */
+    .body > .contactinformation > div > div > ul > li > ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .body > .contactinformation > div > div > ul > li > ul > li {
+        font-size: 15px;
+        margin-block: 10px;
+       
+
+    }
+    .body > .contactinformation > div > div > ul > li > ul > li.icon {
+        font-size: 30px;
+        color: orange;
+        /* margin-block: 20px; */
+    }
+    .body > .contactinformation > div > div > ul > li > ul > li.h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    
+    }
+    
+    

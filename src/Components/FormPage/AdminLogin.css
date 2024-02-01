@@ -1,0 +1,59 @@
+
+ 
+    .bodyadminlogin{
+        height: var(--windowheight);
+        width: var(--windowwidth);
+       overflow: scroll;
+    
+    }
+    
+    .bodyadminlogin::-webkit-scrollbar{
+        display: none;
+    }
+    
+    /* contactintro  */
+    
+    .bodyadminlogin > .contactintro{
+        background-color:transparent;
+        height: auto ;
+        width: var(--windowwidth);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px 20px 0px;
+    }
+    
+    .bodyadminlogin > .contactintro > ul {
+        list-style: none;
+        width: 90%;
+
+    }
+    .bodyadminlogin > .contactintro > ul > li{
+        font-size: 15px;
+        margin-block: 10px;
+    }
+    .bodyadminlogin > .contactintro > ul > li{}
+    
+    
+    .bodyadminlogin > .contactintro > div {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bodyadminlogin > .contactintro > div > input {
+       margin-top: 5px;
+       font-size: 15px;
+        border-radius: 20px;
+    }
+    .bodyadminlogin > .contactintro > div > button {
+        font-size: 15px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    
+    
+
+
+
+
+
